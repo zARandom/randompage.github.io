@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/registrarse.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="" width="100px">
+        </div>
+        <nav class="inicio">
+            <a href="index.html">INICIO</a>
+        </nav>
+        &bull;
+        <nav class="navegacion">
+            <a href="registrarse.html">Registrarse</a>
+            <a href="inicio_sesion.html">Iniciar sesion</a>
+            <a href="registro_lista.html">Lista de registrados</a>
+            &bull;
+            <a href="imagenes.html">Imagenes</a>
+            <a href="videos.html">Videos</a>
+        </nav>
+        <br>
+    </header>
+    <br>
+    <form action="php/index.php" method="post" class="formulario">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <input type="submit" value="Registrarse">
+      </form>
+        
+</body>
+</html>
