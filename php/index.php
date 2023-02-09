@@ -1,1 +1,3 @@
-HOLAAAA
+<?php
+    echo "Hello World!";
+?>
