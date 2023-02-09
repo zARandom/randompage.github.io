@@ -1,0 +1,47 @@
+
+/* CABEZERA DE LA PAGINA */
+
+body{
+    background-color: aliceblue;
+    font-family: cursive;
+}
+
+header{
+    background-color: beige;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+.inicio{
+    text-align: center; 
+}
+.inicio a{
+    color: black;
+}
+
+
+.navegacion{
+    text-align: center;
+}
+.navegacion a{
+    color: black;
+    margin-right: 10px;
+}
+
+/* CUERPO DE LA PAGINA */
+
+div{
+    text-align: center;
+}
+
+.pie {
+    border: 5px solid red;
+  }
+
+.pie a{
+    padding-right: 20px;
+}
+  
